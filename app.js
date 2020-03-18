@@ -69,3 +69,36 @@
 // (function sumar(a) {
 //   console.log(`Hola ${a}`);
 // })("fernando");  // FUNCIONES QUE SE EJECUTAN SIN LLAMAR
+
+//$$$$$$$$$$ METODOS DE FECHA $$$$$$$$$$
+
+// const today = new Date();
+// const navidada2017 = new Date("12-26-2017");
+// console.log(today.getMonth()); // EMPIEZA DESDE EL 0
+// console.log(today.getDate());
+// console.log(today.getFullYear());
+// console.log(today.getMinutes());
+// console.log(today.getHours());
+// console.log(today.getTime()); // MILISEGUNDOS DESDE 1970
+// console.log(today.setFullYear(2018));
+
+// -------------------------------
+const personas = ["Fernando", "Chullo", "Mamani", "Mahiler", "Pepe"];
+
+personas.forEach((item, index) => {
+  console.log(`El nombre es ${item} en la posicion ${index}`);
+});
+
+const nuevo = personas.map((item) => {
+  return item;
+});
+
+// for (let jose in personas) {
+//   console.log(jose);
+// }
+
+for (let pepe of personas.entries()) {
+  console.log(pepe);
+}
+
+// console.log(nuevo);
