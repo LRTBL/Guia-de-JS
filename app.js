@@ -45,11 +45,27 @@
 
 //$$$$$$$     ARRAY     $$$$$$$
 
-const array = ["Enero", "Febrero", "Marzo"];
-array.push("Diciembre"); //AÑADE ELEMENTO AL FINAL
-array.unshift("Mes 0"); //AÑADE AL PRINCIPIO
-array.pop(); // ELIMINA EL ULTIMO ELEMENTO
-array.shift(); // ELIMINA EL PRIMER ELEMENTO
-array.splice(2, 2); //QUITAR POR RANGO (2: INDEX ,2: CANTIDAD A APARTIR DE INDEX)
-array.reverse();
-console.log(array);
+// var array = ["Enero", "Febrero", "Marzo"];
+// var array2 = ["Abril", "Mayo", "Junio"];
+// var numbers = [324, 3546, 1, 24, 5, 2, 2, 5, 8564, 675, 4, 36];
+// array.push("Diciembre"); //AÑADE ELEMENTO AL FINAL
+// array.unshift("Mes 0"); //AÑADE AL PRINCIPIO
+// array.pop(); // ELIMINA EL ULTIMO ELEMENTO
+// array.shift(); // ELIMINA EL PRIMER ELEMENTO
+// array.splice(2, 2); //QUITAR POR RANGO (2: INDEX ,2: CANTIDAD A APARTIR DE INDEX)
+// array.reverse();
+// array.concat(array2); // CONCATENA PERO NO GUARDA EN VAIRABLE
+// array2.sort();
+
+// //SORT DE NUMEROS
+// numbers.sort((x, y) => {
+//   console.log(x + " " + y);
+//   return x - y;
+// });
+// console.log(numbers);
+
+// $$$$$$$$$$4 IIEF $$$$$$$$$$$$$$
+
+// (function sumar(a) {
+//   console.log(`Hola ${a}`);
+// })("fernando");  // FUNCIONES QUE SE EJECUTAN SIN LLAMAR
